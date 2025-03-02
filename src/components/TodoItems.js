@@ -9,10 +9,11 @@ const TodoItems = ({ todo, onDelete }) => {
             <span className={`badge ${todo.completed ? 'bg-success' : 'bg-danger'}`} style={{ padding: '5px 15px', margin: '1px', fontSize: '12px' }}>
                 {todo.completed ? 'Completed ✅' : 'Pending ❌'}
             </span>
-            <button className="btn btn-danger mt-2 my-2 " style={{ padding: '5px', fontSize: '15px' }} onClick={onDelete}>
+            <button className="btn btn-danger mt-2 my-2 " style={{ padding: '5px', fontSize: '15px' }} onClick={() => {
+                onDelete(todo)
+            }}>
                 Delete
             </button>
-
         </div>
 
     )

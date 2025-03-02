@@ -5,8 +5,8 @@ import Todos from './components/Todos';
 
 
 function App() {
-  const onDelete = () => {
-    console.log("I am onDelete of todo", "todo")
+  const onDelete = (todo) => {
+    console.log("I am onDelete of todo", todo)
   }
   const todos =
     [
