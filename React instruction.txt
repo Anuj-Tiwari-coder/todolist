@@ -1,0 +1,22 @@
+ First we have to install node.js.
+ follow link: https://nodejs.org/en
+ Because react is a framework for web development in node.js
+
+There are two types of installation in react installation
+1. npx installation
+    npx is a package runner tool that comes bundled with npm. It is used to run a package
+
+2. npm installation
+    npm is a package manager for JavaScript.
+ 
+then we look for all the dependencies which we want to host a website
+like react, react-dom, react-router-dom etc.
+then we install all the dependencies using npm || npx
+then we create a new react app using npx || npm
+    cmd using npx create-app --app name || npm create vite@latest --app name also we can use vite for better performance
+then we start the app using npm start
+then we can see the app in the browser via localhost link
+
+In this I created for reuseable components with use of props
+
+Props (short for "properties") in React are used to pass data from one component to another, usually from a parent component to a child component.
